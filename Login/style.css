@@ -1,0 +1,79 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Hind,Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: rgb(160, 158, 158);
+    background: rgba(0, 0, 0, 0.664)url("imgs/fundo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+h1{
+    font-weight: 100;
+    font-size: 22px;
+    text-align: center;
+    padding: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(231, 230, 230);
+    text-align: center;
+}
+
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.747);
+    border: 1px solid black;
+    border-radius: 15px;
+    width: 380px;
+}
+
+.icones{
+    width: 45px;
+    height: 45px;
+}
+
+input{
+    height: 30px;
+    width: 280px;
+    margin-top: 6px;
+}
+
+.img{
+    text-align: center;
+ }
+
+.usuario{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+ }
+
+.senha{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+ }
+
+ .entrar{
+    display: block;
+    margin: auto;
+    width: 150px;
+    background-color: #317b96;
+    border: 1px solid black;
+    border-radius: 15px;
+    color: white;
+    font-size: 18px;
+ }
