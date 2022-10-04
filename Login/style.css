@@ -32,9 +32,8 @@ a{
     width: 380px;
 }
 
-.icones{
-    width: 45px;
-    height: 45px;
+span{
+    margin-top: 12px;
 }
 
 input{
@@ -72,4 +71,11 @@ input{
     border-radius: 15px;
     color: white;
     font-size: 18px;
+    transition: .5s;
+ }
+
+ .entrar:hover{
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
  }

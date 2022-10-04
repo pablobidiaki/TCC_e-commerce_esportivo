@@ -59,6 +59,13 @@ fieldset {
     width:315px;
     text-align: center;
     padding: 10px;
+    transition: .5s;
+}
+
+#google:hover{
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
 }
 
 .botao-google{
@@ -84,6 +91,13 @@ fieldset {
     width: 120px;
     text-align: center;
     padding: 10px;
+    transition: .5s;
+ }
+
+ #entrar:hover{
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
  }
 
  #cadastre-se{
@@ -93,6 +107,13 @@ fieldset {
     text-align: center;
     width: 120px;
     padding: 10px;
+    transition: .5s;
+ }
+
+ #cadastre-se:hover{
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
  }
 
  .img{
