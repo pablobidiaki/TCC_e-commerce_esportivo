@@ -5,11 +5,7 @@
 }
 
 body{
-    background-color: rgb(160, 158, 158);
-    background: rgba(0, 0, 0, 0.664)url("imgs/fundo.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-blend-mode: darken;
+    background-color: #317b96;
 }
 
 h1{
