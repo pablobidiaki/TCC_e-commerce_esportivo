@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-color: #317b96;
+    height: 55px;
+}
+
+img.logo{
+    height: 50px;
+    display: inline;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.itens{
+    color: white;
+    margin-top: 10px;
+    margin-right: 15px;
+}
+
+
+p{
+    color: white;
+    font-size: 20px;
+}
+
+li{
+    list-style-type: none;
+}
