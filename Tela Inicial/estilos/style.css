@@ -24,18 +24,59 @@ ul{
     align-items: center;
 }
 
+p{
+    color: black;
+    font-size: 20px;
+}
+
+li{
+    list-style-type: none;
+}
+
 .itens{
     color: white;
     margin-top: 10px;
     margin-right: 15px;
 }
 
-
-p{
-    color: white;
-    font-size: 20px;
+.img-carrosel{
+    width: 100vw;
+    height: 300px;
 }
 
-li{
-    list-style-type: none;
+.lista-icones-esportes{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.icones-esportes{
+    background-color: white;
+    width:90px;
+    height: 90px;
+    margin:30px 25px 15px 25px;
+    border-radius: 15px;
+    transition: .5s;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.514);
+}
+
+.icones-esportes:hover{
+    width: 95px;
+    height: 95px;
+    background-color: rgb(167, 167, 167);
+}
+
+.img-icones-esportes{
+    display: block;
+    margin: auto;
+    width: 50px;
+    height: 50px;
+}
+
+.titulo-icones-esportes{
+    font-size: 14px;
+    text-align: center;
+}
+
+.car{
+    margin: 200px 0px 20px 0px;
 }
