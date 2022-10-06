@@ -9,7 +9,6 @@
 
 header{
     background-color: #317b96;
-    height: 55px;
 }
 
 img.logo{
@@ -37,11 +36,12 @@ li{
     color: white;
     margin-top: 10px;
     margin-right: 15px;
+    transition: .5s;
 }
 
 .img-carrosel{
     width: 100vw;
-    height: 300px;
+    height: 450px;
 }
 
 .lista-icones-esportes{
@@ -75,8 +75,26 @@ li{
 .titulo-icones-esportes{
     font-size: 14px;
     text-align: center;
+    font-weight: bold;
 }
 
-.car{
-    margin: 200px 0px 20px 0px;
+.carrossel{
+    margin: 20px 0px 20px 0px;
+}
+
+.barra-pesquisa{
+    padding-bottom: 5px;
+}
+
+.input-pesquisa{
+    border:none ;
+    padding: 05px;
+    width: 750px;
+    border-radius:25px 0px 0px 25px ;
+}
+
+.input-botao-pesquisar{
+    border: none;
+    padding: 5px;
+    border-radius: 0px 25px 25px 0px;
 }
