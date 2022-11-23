@@ -32,6 +32,12 @@ li{
     list-style-type: none;
 }
 
+footer{
+    background-color: white;
+    margin: 0px;
+    padding: 0px;
+}
+
 .itens{
     color: white;
     margin-top: 10px;
@@ -98,3 +104,29 @@ li{
     padding: 5px;
     border-radius: 0px 25px 25px 0px;
 }
+
+.imagens{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.imagem p {
+    margin-bottom: 0px;
+    background: white;
+    color:black;
+    font-family: 'Roboto';
+    padding: 1px 15px ;
+    font-size: 20px;
+}
+
+.imagem img{
+    width: 250px;
+    height: 250px;
+}
+
+.imagem .preco{
+    font-size: 25px;
+}
+
